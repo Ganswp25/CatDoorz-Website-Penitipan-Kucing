@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<!--Florian Dimaswanda Putra 10122458 -->
+<!---->
+<html lang="en" id="home">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Font Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./dist/css/style.css">
+
+    <title>CatDoorz</title>
+    <link rel="icon" href="./assets/icon/iconweb(2).png">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="container">
+                <div class="box-navbar">
+                    <div class="logo">
+                        <img src="./assets/icon/iconweb(2).png" alt="">
+                        <h1>CatDoorz</h1>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#reserv">Reservasi</a></li>
+                        <li><a href="./pages/login.php">Dashboard</a></li>
+                    </ul>
+                    <i class="fa-solid fa-bars menu-bar"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+                <div class="box-hero">
+                    <div class="box">
+                        <h1>Penitipan Kucing Terbaik</h1>
+                        <p>Bingung mau titip anabul kesayangan anda untuk waktu yang lama? atau sibuk sehingga khawatir
+                            jika anabul ditinggalkan sendiri di rumah, CatDoorz adalah solusi bagi penitipan kucing
+                            kesayangan anda dengan harga yang affordable dan dengan kualitas yang terbaik!</p>
+                        <a href="#tentang"><button>Selengkapnya</button></a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/img/lp.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!--Formula-->
+    <div class="formula" id="tentang">
+        <div class="container">
+            <div class="box-formula">
+                <div class="wadah">
+                    <div class="judul"><span>CatDoorz</span></div>
+                    <div class="kalimat">
+                        <p>Merupakan Tempat Penitipan kucing dengan staff terlatih dan tenaga ahli yang berpengalaman
+                            dalam merawat dan menjaga kucing kesayangan anda, Jika anda ingin menitipkan kucing dalam
+                            jangka waktu yang lama kami memiliki 3 Paket andalan dengan harga terbaik,
+                            terdapat berbagai perawatan tambahan yang dapat diberikan selama kucing anda menginap di
+                            CatDoorz, ingin tahu pendapat orang mengenai CatDoorz lihat di akun instagram kami di
+                            <a href="#">@CatDoorz.id</a> Jadi tunggu apalagi!!! hubungi kami segera di <a
+                                href="mailto:Catdoorz@gmail.com">CatDoorz@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-shield-cat"></i>
+                    <h4>Perawatan Berkualitas</h4>
+                    <p>Selain menjadi penitipan kucing, kami juga bisa memberikan fasilitas perawatan untuk kucing
+                        kesayangan anda </p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <h4>Harga Terjangkau</h4>
+                    <p>Kami menawarkan harga terbaik dengan fasilitas terbaik juga</p>
+                </div>
+                <div class="box">
+                    <i class="fa-solid fa-cat"></i>
+                    <h4>Penitipan terbaik</h4>
+                    <p>Tentu kami juga memberikan fasilitas penitipan yang Berkualitas</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Formula-->
+
+    <!--Ras-->
+    <div class="about" id="reserv">
+        <div class="container">
+            <div class="box-about">
+                <div class="paket">
+                    <a href="#supreme" onclick="buka0()"><img src="./assets/B/supreme.jpg" alt="Maaf gambar error :[">
+                        <h3>Paket supreme</h3>
+                        <p>Detail</p>
+                    </a>
+                </div>
+                <div class="popup0" id="supreme">
+                    <div class="popup-content">
+                        <h3>Paket supreme</h3>
+                        <br>
+                        <p>Paket supreme untuk si loyal.</p>
+                        <p>Dapatkan Diskon total 20% dengan melakukan reservasi dan memilih paket Supreme, anda dapat
+                            memilih paket ini untuk tipe reservasi harian ataupun mingguan, detail paket:</p>
+                        <ul>
+                            <li>Dry food merek berkualitas 2 kali sehari</li>
+                            <li>Wet food merek berkualitas 2 kali sehari</li>
+                            <li>Vitamin Untuk anabul </li>
+                            <li>Creamy treats 2 kali sehari</li>
+                            <li>Request khusus</li>
+                        </ul>
+                        <button class="close-button" onclick="klos0()">Tutup</button>
+                    </div>
+                </div>
+                <div class="paket">
+                    <a href="#standar" onclick="buka1()"><img src="./assets/B/Standar.jpg" alt="Maaf gambar error :[">
+                        <h3>Paket Standar</h3>
+                        <p>Detail</p>
+                    </a>
+                </div>
+                <div class="popup1">
+                    <div class="popup-content">
+                        <h3>Paket Standar</h3>
+                        <br>
+                        <p>Paket Standar untuk si loyal.</p>
+                        <p>Dapatkan Diskon total 15% dengan melakukan reservasi dan memilih paket Standar, anda dapat
+                            memilih paket ini untuk tipe reservasi harian ataupun mingguan, detail paket:</p>
+                        <ul>
+                            <li>Dry food merek berkualitas 2 kali sehari</li>
+                            <li>Wet food merek berkualitas 1 kali sehari</li>
+                            <li>Vitamin Untuk anabul </li>
+                            <li>Request khusus</li>
+                        </ul>
+                        <button class="close-button" onclick="klos1()">Tutup</button>
+                    </div>
+                </div>
+                <div class="paket">
+                    <a href="#eko" onclick="buka2()"><img src="./assets/B/ekonomis.jpg" alt="Maaf gambar error :[">
+                        <h3>Paket Ekonomis</h3>
+                        <p>Detail</p>
+                    </a>
+                </div>
+                <div class="popup2" id="eko">
+                    <div class="popup-content">
+                        <h3>Paket Ekonomis</h3>
+                        <br>
+                        <p>Paket Ekonomis untuk si loyal.</p>
+                        <p>Dapatkan Diskon total 10% dengan melakukan reservasi dan memilih paket Ekonomis, anda dapat
+                            memilih paket ini untuk tipe reservasi harian ataupun mingguan, detail paket:</p>
+                        <ul>
+                            <li>Dry food merek berkualitas 2 kali sehari</li>
+                            <li>Wet food merek berkualitas 2 kali sehari</li>
+                        </ul>
+                        <button class="close-button" onclick="klos2()">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Ras-->
+
+    <!--Myth-->
+    <div class="myth" id="myth">
+        <div class="container">
+            <div class="box-myth">
+                <div class="box">
+                    <h3>Order</h3>
+                    <p>Apakah anda tertarik?</p>
+                    <a href="./pages/transaksicatdoorz.php"><button>Reservasi Di sini</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Myth-->
+
+    <!--Daftar-->
+    <div class="daftar">
+        <div class="container">
+            <div class="box-daftar">
+                <h1></h1>
+            </div>
+        </div>
+        <!--Daftar-->
+
+        <!--Footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="box-footer">
+                    <div class="box">
+                        <h2>Motto</h2>
+                        <p>kami berkomitmen untuk menjaga merawat dan menyayangi anabul anda. Untuk pelayanan kami tak
+                            pernah ragu untuk memberikan yang terbaik, tenaga ahli staff kami sudah terlatih,
+                            berpengalaman, dan sudah terjamin dalam merawat anabul selagi anda pergi.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <h3>Menu</h3>
+                        <a href="#home">home</a>
+                        <a href="#formula">About</a>
+                        <a href="#about">Order</a>
+                    </div>
+                    <div class="box">
+                        <h2>Hubungi lebih lanjut</h2>
+                        <a href="mailto:Catdoorz@gmail.com">CatDoorz@gmail.com</a>
+                        <br>
+                        <img src="./assets/B/wa.png" alt="Maaf gambar error :[">&nbsp;&nbsp;&nbsp;<a
+                            href="wa.me/+6282188766432">082188766432</a>
+                        <br>
+                        <img src="./assets/B/place.png" alt="Maaf gambar error :[">&nbsp;&nbsp;&nbsp;
+                        <a href="https://shorturl.at/ghAR9">Lokasi
+                            Di sini</a>
+                        <p>&copy; Copyright by <span>Kucingku</span> All Rights Reserved 2023, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="dist/js/script.js"></script>
+        <script src="dist/js/popup.js"></script>
+</body>
+
+</html>
